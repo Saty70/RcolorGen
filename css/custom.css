@@ -6,7 +6,7 @@
 }
 
 body{
-    transition: 0.5s;
+    transition: 0s;
 }
 
 .main{
@@ -25,6 +25,15 @@ body{
     background-color: aliceblue ;
     text-align: center;
     transition: 1s;
+    display: inline-block;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 3px 9px rgba(220, 220, 25, 0.516);
+}
+.container:hover{
+    display: inline-block;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 35px;
+    text-shadow: 2px 3px 1px rgba(220, 220, 25, 0.872);
 }
 
 button{
